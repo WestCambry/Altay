@@ -1,0 +1,201 @@
+a{
+	text-decoration: none;
+}
+.link_hd{
+	color: white;
+}
+.link_mn{
+	color: navajowhite;;
+}
+.link_bt{
+	color: black;
+}
+body{
+	background: url(img/bg.jpg) no-repeat;
+	background-size: cover;
+	font-family: Garamond;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+.headivs{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.head1{
+	width: 100px;
+	height: 100px;
+	background: url(img/logo2.png) no-repeat;
+	background-size:cover;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.head2,.head3,.head4,.head5{
+	width: 10%;
+	height: 100px;
+	color: white;
+	font-size: 24px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	transition: 0.3s ease-out;
+}
+.head2:hover{
+	transform: scale(1.1);
+	transition: 0.3s ease-out;
+}
+.head3:hover{
+	transform: scale(1.1);
+	transition: 0.3s ease-out;
+}
+.head4:hover{
+	transform: scale(1.1);
+	transition: 0.3s ease-out;
+}
+.head5:hover{
+	transform: scale(1.1);
+	transition: 0.3s ease-out;
+}
+.main{
+	width: 100%;
+	height: 590px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.name{
+	width: 300px;
+	height: 150px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 82px;
+	color: white;
+}
+.textin{
+	width: 300px;
+	height: 220px;
+	font-size: 28px;
+	color: white;
+}
+.btin{
+	width: 300px;
+	height: 50px;
+	border-radius: 20px;
+	font-size: 24px;
+	font-family: Garamond;
+}
+.img{
+	width: 900px;
+	height: 600px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.ph1,.ph2,.ph3{
+	width: 25%;
+	height: 320px;
+	background: url(https://avatars.dzeninfra.ru/get-zen_doc/964926/pub_64db6035a9216a3544cd50c2_64db62904116660e0c29f6b2/scale_1200) no-repeat;
+	background-size: cover;
+	border: 2px solid white;
+	border-radius: 35px;
+	transition: 0.5s ease-out;
+}
+.ph1:hover{
+	transform: scale(1.1);
+	transition: 0.5s ease-out;
+}
+.ph2{
+	background: url(https://cs14.pikabu.ru/post_img/big/2023/06/14/9/1686756131188026804.jpg) no-repeat;
+	background-size: cover;
+}
+.ph2:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+.ph3{
+	background: url(https://trikitaomsk.ru/upload/baza-altay.jpg) no-repeat;
+	background-size: cover;
+}
+.ph3:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+.ch_name{
+	width: 100%;
+	height: 150px;
+	color: white;
+	font-size: 82px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.var{
+	width: 100%;
+	height: 64px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.var_bc,.var_wl,.var_car,.var_mn{
+	background: url(img/bc64.png) no-repeat;
+	background-size: cover;
+	width: 64px;
+	height: 64px;
+}
+.var_wl{
+	background: url(img/wl.png) no-repeat;
+}
+.var_car{
+	background: url(img/car.png) no-repeat;
+}
+.var_mn{
+	background: url(img/mn.png) no-repeat;
+}
+.ch_main{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.ch_main1,.ch_main2{
+	width: 40%;
+	height: 400px;
+	background: url(img/mn1.jpg) no-repeat;
+	background-size: cover;
+	font-weight: bold;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	transition: 0.5s ease-out;
+}
+.ch_main2{
+	background: url(img/mn2.jpg) no-repeat;
+	background-size: cover;
+}
+.ch_main1:hover{
+	transform: scale(1.1);
+	transition: 0.5s ease-out;
+}
+.ch_main2:hover{
+	transform: scale(1.1);
+	transition: 0.5s ease-out;
+}
+.mn_text{
+	width: 80%;
+	height: 100px;
+	color: white;
+	font-size: 32px;
+	margin-left: 20px;
+	margin-top: 280px;
+	color: navajowhite;
+}
+.ltx{
+	font-size: 24px;
+	font-weight: 0;
+}
