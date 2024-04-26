@@ -2,34 +2,32 @@ a{
 	text-decoration: none;
 }
 .link_hd{
-	color: white;
+	color: black;
 }
 .link_mn{
-	color: navajowhite;;
+	color: white;
 }
 .link_bt{
 	color: black;
 }
 body{
-	background: url(img/bg.jpg) no-repeat;
-	background-size: cover;
 	font-family: Garamond;
-	background-position: center center;
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	margin: 0px;
+	padding: 0px;
 }
 .headivs{
 	width: 100%;
-	height: 100px;
+	height: 70px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	position: fixed;
+	background-color: white;
+	border-bottom: 1px solid gray;
 }
 .head1{
-	width: 100px;
-	height: 100px;
+	width: 64px;
+	height: 64px;
 	background: url(img/logo2.png) no-repeat;
 	background-size:cover;
 	display: flex;
@@ -39,7 +37,6 @@ body{
 .head2,.head3,.head4,.head5{
 	width: 10%;
 	height: 100px;
-	color: white;
 	font-size: 24px;
 	display: flex;
 	justify-content: space-around;
@@ -49,6 +46,7 @@ body{
 .head2:hover{
 	transform: scale(1.1);
 	transition: 0.3s ease-out;
+	color: black;
 }
 .head3:hover{
 	transform: scale(1.1);
@@ -62,12 +60,23 @@ body{
 	transform: scale(1.1);
 	transition: 0.3s ease-out;
 }
+.zaplatka{
+	width: 100%;
+	height: 70px;
+}
 .main{
 	width: 100%;
-	height: 590px;
+	height: 700px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	background: url(img/bg.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 .name{
 	width: 300px;
@@ -130,11 +139,12 @@ body{
 .ch_name{
 	width: 100%;
 	height: 150px;
-	color: white;
+	color: black;
 	font-size: 82px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: px;
 }
 .var{
 	width: 100%;
@@ -166,16 +176,16 @@ body{
 	align-items: center;
 }
 .ch_main1,.ch_main2{
-	width: 40%;
+	width: 700px;
 	height: 400px;
-	background: url(img/mn1.jpg) no-repeat;
+	background: url(img/mn1bl.png) no-repeat;
 	background-size: cover;
 	font-weight: bold;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 	transition: 0.5s ease-out;
 }
 .ch_main2{
-	background: url(img/mn2.jpg) no-repeat;
+	background: url(img/mn2bl.png) no-repeat;
 	background-size: cover;
 }
 .ch_main1:hover{
@@ -189,13 +199,122 @@ body{
 .mn_text{
 	width: 80%;
 	height: 100px;
-	color: white;
-	font-size: 32px;
+	font-size: 34px;
 	margin-left: 20px;
-	margin-top: 280px;
-	color: navajowhite;
+	margin-top: 260px;
+	color: white;
 }
 .ltx{
 	font-size: 24px;
 	font-weight: 0;
+	color: white;
+}
+.chat{
+	width: 100px;
+	height: 64px;
+	background: url(img/chat.png) no-repeat;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.guide{
+	width: 100%;
+	height: 900px;
+	background: url(https://i.pinimg.com/originals/08/4a/17/084a175c549b43adad20774089be2435.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+.gd_head{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 82px;
+	color: black;
+}
+.gd_all{
+	width: 100%;
+	height: 750px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.gd1,.gd2,.gd3{
+	width: 350px;
+	height: 550px;
+	background: white;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	transition: 0.5s ease-out;
+}
+.gd1:hover{
+	transform: scale(1.1);
+	transition: 0.5s ease-out;
+}
+.gd2:hover{
+	transform: scale(1.1);
+	transition: 0.5s ease-out;
+}
+.gd3:hover{
+	transform: scale(1.1);
+	transition: 0.5s ease-out;
+}
+.gd_name1,.gd_name2,.gd_name3{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 32px;
+	font-weight: bold;
+}
+.gd_photo1,.gd_photo2,.gd_photo3{
+	width: 300px;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 27px;
+}
+.gd_photo1{
+	background: url(img/arc1.jpg) no-repeat;
+	background-size: cover;
+}
+.gd_photo2{
+	background: url(img/arc3.jpeg) no-repeat;
+	background-size: cover;
+}
+.gd_photo3{
+	background: url(img/arc2.jpg) no-repeat;
+	background-size: cover;
+}
+.gd_media{
+	width: 100%;
+	height: 50px;
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.md1{
+	width: 50px;
+	height: 50px;
+	background: url(img/insta.png) no-repeat;
+	background-size: cover;
+}
+.md2{
+	width: 50px;
+	height: 50px;
+	background: url(img/x.png) no-repeat;
+	background-size: cover;
+}
+.md3{
+	width: 50px;
+	height: 50px;
+	background: url(img/facebook.png) no-repeat;
+	background-size: cover;
 }
